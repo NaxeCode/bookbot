@@ -6,7 +6,8 @@ def main():
 
 def countWords(words):
     wordCount = 0
-    for word in words:
+    txt = words.split()
+    for word in txt:
         wordCount += 1
     return wordCount
 
